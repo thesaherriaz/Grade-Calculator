@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 1px;
+}
+
+body {
+    background-color: #9CAFAA;
+    color: #393E46;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main {
+    background-color: #D6DAC8;
+    border-radius: 30px;
+    width: 40%;
+    height: max-content;
+    margin: 1px;
+    padding: 50px 10px;
+    align-items: center;
+}
+
+.labels {
+    margin: 25px;
+}
+
+input {
+    height: 23px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e3eade;
+}
+
+label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#name {
+    margin-left: 55px;
+}
+
+#obt_marks {
+    margin-left: 10px;
+}
+
+#total_marks {
+    margin-left: 9px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #acc7c0 ;
+    color: #393E46;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgb(78, 78, 78);
+}
+button:hover{
+    background-color:#a6c1ba ;
+}
+
+@media screen and (max-width: 950px) {
+    #name , #obt_marks, #total_marks{
+        margin-left: 0px;
+    }
+    form, .labels, label{
+        display: block;
+    }
+    h1{
+        margin-bottom: 0px;
+    }
+    .main{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 480px){
+    .main{
+        width: 80%;
+    }
+}

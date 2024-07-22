@@ -1,5 +1,5 @@
-# A simple web-based grade calculator implemented using HTML, CSS, and JavaScript.
-<h1>Technologies Used</h1>
+<h4>A simple web-based grade calculator implemented using HTML, CSS, and JavaScript.</h4>
+<h3>Technologies Used</h3>
 <ul>
 <li>HTML</li>
 <li>CSS3</li>
